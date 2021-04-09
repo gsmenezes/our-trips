@@ -6,13 +6,24 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>React Avançado - Boilerplate</title>
+        <title>Our Trips</title>
         <link rel="shortcut icon" href="/img/icon-192.png" />
         <link rel="manifest" href="/manifest.json" />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+          crossOrigin=""
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
         <meta name="theme-color" content="#06092B" />
         <meta
           name="description"
-          content="A simple project starter to work with Typescript, React, NextJS and Styled Components"
+          content="A simple project to show our favorite spots in world!"
         />
       </Head>
       <GlobalStyles />
